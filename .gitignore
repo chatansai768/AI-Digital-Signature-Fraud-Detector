@@ -1,0 +1,36 @@
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+
+# Build files
+dist/
+build/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Private keys
+*.pem
+*.key
+
+# Uploaded documents
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Temporary test files
+large.pdf
+test.pdf
+test.txt
+
+# Logs and operating system files
+*.log
+.DS_Store
+Thumbs.db
